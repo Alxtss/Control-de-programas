@@ -81,7 +81,7 @@ public class Normas extends javax.swing.JInternalFrame {
         System.out.println(path);
 
         try {
-            new ProcessBuilder("cmd", "/c start /min " + path + "\\dist\\control_programas.jar ^& exit").start();
+            new ProcessBuilder("cmd", "/c start /min " + path + "\\control_programas.jar ^& exit").start();
         } catch (IOException ex) {
             Logger.getLogger(Normas.class.getName()).log(Level.SEVERE, null, ex);
         }

@@ -70,7 +70,7 @@ public class Programas extends javax.swing.JInternalFrame {
         new singleInstance().cerrarApp();
 
         try {
-            new ProcessBuilder("cmd", "/c start /min " + path + "\\dist\\control_programas.jar ^& exit").start();
+            new ProcessBuilder("cmd", "/c start /min " + path + "\\control_programas.jar ^& exit").start();
         } catch (IOException ex) {
             Logger.getLogger(Normas.class.getName()).log(Level.SEVERE, null, ex);
         }

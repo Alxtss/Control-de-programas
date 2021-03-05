@@ -11,6 +11,8 @@ Otras funcionalidades:
 - Gestion de archivos y carpetas
 - Sistema de alarmas (recordatorios)
 
+Capturas de pantalla:
+
 
 ![Principal](https://user-images.githubusercontent.com/72581095/110041978-a10c1280-7d0a-11eb-89e1-a51ce69aa2fb.png)
 
